@@ -39,9 +39,10 @@ end
 group :development do
 	gem 'mysql2', '0.3.18'	
 end
-group :production do
- 	gem 'pg', '1.1.4' 
-end
+ruby  "2.0.0p648"
+# group :production do
+#  	gem 'pg', '~> 0.18.4'
+# end
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
